@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97CC4CA42BC6440500E8321D /* TSDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CC4CA22BC6440500E8321D /* TSDylib.h */; };
+		97CC4CA52BC6440500E8321D /* TSDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 97CC4CA32BC6440500E8321D /* TSDylib.mm */; };
+		97CC4CBA2BC66FF500E8321D /* CQCrackDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CC4CB82BC66FF500E8321D /* CQCrackDelegate.h */; };
+		97CC4CBB2BC66FF500E8321D /* CQCrackDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CC4CB92BC66FF500E8321D /* CQCrackDelegate.m */; };
+		97CC4CC12BC6812000E8321D /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CC4CBF2BC6811F00E8321D /* CalculatorViewController.m */; };
+		97CC4CC22BC6812000E8321D /* CalculatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CC4CC02BC6812000E8321D /* CalculatorViewController.h */; };
+		EF46E685A32EA0283C00ECA2 /* Pods_CQAppPassword_dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3B2E1A203F9DDB0471B409 /* Pods_CQAppPassword_dylib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68EEFEFE1899965ECCED7A43 /* Pods-CQAppPassword_dylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQAppPassword_dylib.debug.xcconfig"; path = "Target Support Files/Pods-CQAppPassword_dylib/Pods-CQAppPassword_dylib.debug.xcconfig"; sourceTree = "<group>"; };
+		97CC4C912BC637C300E8321D /* libCQAppPassword_dylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCQAppPassword_dylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CC4CA22BC6440500E8321D /* TSDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDylib.h; sourceTree = "<group>"; };
+		97CC4CA32BC6440500E8321D /* TSDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TSDylib.mm; sourceTree = "<group>"; };
+		97CC4CB82BC66FF500E8321D /* CQCrackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCrackDelegate.h; sourceTree = "<group>"; };
+		97CC4CB92BC66FF500E8321D /* CQCrackDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCrackDelegate.m; sourceTree = "<group>"; };
+		97CC4CBF2BC6811F00E8321D /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		97CC4CC02BC6812000E8321D /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		CF3B2E1A203F9DDB0471B409 /* Pods_CQAppPassword_dylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQAppPassword_dylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBCB8AE066201BF3345C1E7 /* Pods-CQAppPassword_dylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQAppPassword_dylib.release.xcconfig"; path = "Target Support Files/Pods-CQAppPassword_dylib/Pods-CQAppPassword_dylib.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97CC4C8F2BC637C300E8321D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF46E685A32EA0283C00ECA2 /* Pods_CQAppPassword_dylib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F374DD2F859157AFA8AD90F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68EEFEFE1899965ECCED7A43 /* Pods-CQAppPassword_dylib.debug.xcconfig */,
+				EEBCB8AE066201BF3345C1E7 /* Pods-CQAppPassword_dylib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97CC4C882BC637C300E8321D = {
+			isa = PBXGroup;
+			children = (
+				97CC4CA22BC6440500E8321D /* TSDylib.h */,
+				97CC4CA32BC6440500E8321D /* TSDylib.mm */,
+				97CC4CB82BC66FF500E8321D /* CQCrackDelegate.h */,
+				97CC4CB92BC66FF500E8321D /* CQCrackDelegate.m */,
+				97CC4CC02BC6812000E8321D /* CalculatorViewController.h */,
+				97CC4CBF2BC6811F00E8321D /* CalculatorViewController.m */,
+				97CC4C922BC637C300E8321D /* Products */,
+				5F374DD2F859157AFA8AD90F /* Pods */,
+				D01CFB0E5D73ED0ADDE759BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97CC4C922BC637C300E8321D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CC4C912BC637C300E8321D /* libCQAppPassword_dylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01CFB0E5D73ED0ADDE759BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3B2E1A203F9DDB0471B409 /* Pods_CQAppPassword_dylib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		97CC4C8D2BC637C300E8321D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CC4CBA2BC66FF500E8321D /* CQCrackDelegate.h in Headers */,
+				97CC4CC22BC6812000E8321D /* CalculatorViewController.h in Headers */,
+				97CC4CA42BC6440500E8321D /* TSDylib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97CC4C902BC637C300E8321D /* CQAppPassword_dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CC4C952BC637C300E8321D /* Build configuration list for PBXNativeTarget "CQAppPassword_dylib" */;
+			buildPhases = (
+				1F7659C600B74B69BDAB949C /* [CP] Check Pods Manifest.lock */,
+				97CC4C8D2BC637C300E8321D /* Headers */,
+				97CC4C8E2BC637C300E8321D /* Sources */,
+				97CC4C8F2BC637C300E8321D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CQAppPassword_dylib;
+			productName = CQAppPassword_dylib;
+			productReference = 97CC4C912BC637C300E8321D /* libCQAppPassword_dylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97CC4C892BC637C300E8321D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					97CC4C902BC637C300E8321D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 97CC4C8C2BC637C300E8321D /* Build configuration list for PBXProject "CQAppPassword_dylib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97CC4C882BC637C300E8321D;
+			productRefGroup = 97CC4C882BC637C300E8321D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97CC4C902BC637C300E8321D /* CQAppPassword_dylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7659C600B74B69BDAB949C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CQAppPassword_dylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97CC4C8E2BC637C300E8321D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CC4CA52BC6440500E8321D /* TSDylib.mm in Sources */,
+				97CC4CBB2BC66FF500E8321D /* CQCrackDelegate.m in Sources */,
+				97CC4CC12BC6812000E8321D /* CalculatorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97CC4C932BC637C300E8321D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97CC4C942BC637C300E8321D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		97CC4C962BC637C300E8321D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EEFEFE1899965ECCED7A43 /* Pods-CQAppPassword_dylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97CC4C972BC637C300E8321D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBCB8AE066201BF3345C1E7 /* Pods-CQAppPassword_dylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97CC4C8C2BC637C300E8321D /* Build configuration list for PBXProject "CQAppPassword_dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CC4C932BC637C300E8321D /* Debug */,
+				97CC4C942BC637C300E8321D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CC4C952BC637C300E8321D /* Build configuration list for PBXNativeTarget "CQAppPassword_dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CC4C962BC637C300E8321D /* Debug */,
+				97CC4C972BC637C300E8321D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97CC4C892BC637C300E8321D /* Project object */;
+}

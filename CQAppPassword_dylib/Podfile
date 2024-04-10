@@ -1,0 +1,47 @@
+platform :ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+# pod的本地索引文件：~/Library/Caches/CocoaPods/search_index.json
+
+
+post_install do |installer|
+    
+    puts 'Determining pod project minimal deployment target'
+    
+    pods_project = installer.pods_project
+    deployment_target_key = 'IPHONEOS_DEPLOYMENT_TARGET'
+    deployment_targets = pods_project.build_configurations.map{ |config| config.build_settings[deployment_target_key] }
+    minimal_deployment_target = deployment_targets.min_by{ |version| Gem::Version.new(version) }
+    # 所得 minimal_deployment_target 为本文件顶部设置的 platform :ios, '9.0' ，下面打印的log可在执行pod install的终端上查看
+
+    puts 'Minimal deployment target is ' + minimal_deployment_target.to_s # 添加了 .to_s，将值转换为字符串
+    puts 'Setting each pod deployment target to ' + minimal_deployment_target.to_s # 添加了 .to_s，将值转换为字符串
+
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            # 修复[File not found: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a](https://stackoverflow.com/questions/75574268/missing-file-libarclite-iphoneos-a-xcode-14-3)
+            config.build_settings[deployment_target_key] = minimal_deployment_target
+        end
+    end
+end
+
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
+source 'https://gitee.com/dvlproad/dvlproadSpecs'  #这里要增加的是这条私有仓库的地址，而不是那些私有仓库里的库的地址，即如果你是增加'https://gitee.com/dvlproad/CJCustomView.git'那就错了。（之前自己犯过一次错）
+
+inhibit_all_warnings! #inhibit_warnings参数能够有效的抑制CocoaPods引入的第三方代码库产生的warning。
+
+target 'CQAppPassword_dylib' do
+    pod 'CQDemoKit'
+    pod 'CJBaseHelper',       '~> 0.1.7',          :subspecs => ['HookCJHelper', 'UIViewControllerCJHelper']
+end
+
+#target 'TSDemoDemoTests' do
+#    platform :ios, '9.0'
+    
+#end
+
+#target 'TSDemoDemoUITests' do
+#    platform :ios, '9.0'
+    
+#end
