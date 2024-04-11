@@ -1,5 +1,10 @@
 platform :ios, '9.0'
-use_frameworks!
+# 动态库
+#use_frameworks!
+#use_frameworks! :linkage => :dynamic
+# 静态库
+use_frameworks! :linkage => :static
+
 inhibit_all_warnings!
 # pod的本地索引文件：~/Library/Caches/CocoaPods/search_index.json
 
@@ -32,7 +37,6 @@ source 'https://gitee.com/dvlproad/dvlproadSpecs'  #这里要增加的是这条�
 inhibit_all_warnings! #inhibit_warnings参数能够有效的抑制CocoaPods引入的第三方代码库产生的warning。
 
 target 'CQAppPassword_dylib' do
-    pod 'CQDemoKit'
     pod 'CJBaseHelper',       '~> 0.1.7',          :subspecs => ['HookCJHelper', 'UIViewControllerCJHelper']
 end
 

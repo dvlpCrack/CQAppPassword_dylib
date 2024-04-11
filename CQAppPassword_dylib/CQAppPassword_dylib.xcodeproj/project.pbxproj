@@ -13,11 +13,12 @@
 		97CC4CBB2BC66FF500E8321D /* CQCrackDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CC4CB92BC66FF500E8321D /* CQCrackDelegate.m */; };
 		97CC4CC12BC6812000E8321D /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CC4CBF2BC6811F00E8321D /* CalculatorViewController.m */; };
 		97CC4CC22BC6812000E8321D /* CalculatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CC4CC02BC6812000E8321D /* CalculatorViewController.h */; };
-		EF46E685A32EA0283C00ECA2 /* Pods_CQAppPassword_dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3B2E1A203F9DDB0471B409 /* Pods_CQAppPassword_dylib.framework */; };
+		98C57E01A8F3B76F589D6E7E /* Pods_CQAppPassword_dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA6955334B4027ABA5FE12F /* Pods_CQAppPassword_dylib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68EEFEFE1899965ECCED7A43 /* Pods-CQAppPassword_dylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQAppPassword_dylib.debug.xcconfig"; path = "Target Support Files/Pods-CQAppPassword_dylib/Pods-CQAppPassword_dylib.debug.xcconfig"; sourceTree = "<group>"; };
+		7DA6955334B4027ABA5FE12F /* Pods_CQAppPassword_dylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQAppPassword_dylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CC4C912BC637C300E8321D /* libCQAppPassword_dylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCQAppPassword_dylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CC4CA22BC6440500E8321D /* TSDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDylib.h; sourceTree = "<group>"; };
 		97CC4CA32BC6440500E8321D /* TSDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TSDylib.mm; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		97CC4CB92BC66FF500E8321D /* CQCrackDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCrackDelegate.m; sourceTree = "<group>"; };
 		97CC4CBF2BC6811F00E8321D /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		97CC4CC02BC6812000E8321D /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
-		CF3B2E1A203F9DDB0471B409 /* Pods_CQAppPassword_dylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQAppPassword_dylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBCB8AE066201BF3345C1E7 /* Pods-CQAppPassword_dylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQAppPassword_dylib.release.xcconfig"; path = "Target Support Files/Pods-CQAppPassword_dylib/Pods-CQAppPassword_dylib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF46E685A32EA0283C00ECA2 /* Pods_CQAppPassword_dylib.framework in Frameworks */,
+				98C57E01A8F3B76F589D6E7E /* Pods_CQAppPassword_dylib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 		D01CFB0E5D73ED0ADDE759BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CF3B2E1A203F9DDB0471B409 /* Pods_CQAppPassword_dylib.framework */,
+				7DA6955334B4027ABA5FE12F /* Pods_CQAppPassword_dylib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

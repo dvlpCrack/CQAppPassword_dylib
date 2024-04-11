@@ -7,13 +7,16 @@
 
 #import "CQCrackDelegate.h"
 #import <CJBaseHelper/HookCJHelper.h>
-//#import <CJBaseHelper/UIViewControllerCJHelper.h>
+#import <CJBaseHelper/UIViewControllerCJHelper.h>
 #import <dlfcn.h>
 
 #import "CalculatorViewController.h"
 
 @implementation CQCrackDelegate
 
+void startHookDelegate(void) {
+    [CQCrackDelegate startHookDelegate];
+}
 
 + (void)startHookDelegate {
     if (@available(iOS 13.0, *)) {
@@ -55,24 +58,17 @@
 + (void)appDidEnterBackground {
     NSLog(@"应用程序进入后台");
     
-//    if ([UIViewControllerCJHelper findCurrentShowingViewController] != nil) {
-//        NSLog(@"立即显示计算器");
-//        [CQCrackDelegate showCalculator];
-//    } else {
-//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//            NSLog(@"延迟显示计算器");
-//            [CQCrackDelegate showCalculator];
-//        });
-//    }
+    [CQCrackDelegate showCalculator];
 }
 
 + (void)showCalculator {
     CalculatorViewController *viewController = [[CalculatorViewController alloc] initWithOKBlock:^(UIViewController * _Nonnull viewController) {
         [viewController dismissViewControllerAnimated:YES completion:nil];
     }];
-//    [[UIViewControllerCJHelper findCurrentShowingViewController] presentViewController:viewController animated:YES completion:^{
-//        NSLog(@"密码计算器打开成功");
-//    }];
+    viewController.modalPresentationStyle = UIModalPresentationFullScreen;
+    [[UIViewControllerCJHelper findCurrentShowingViewController] presentViewController:viewController animated:YES completion:^{
+        NSLog(@"密码计算器打开成功");
+    }];
 }
 
 

@@ -1,71 +1,18 @@
 PODS:
   - CJBaseHelper/HookCJHelper (0.1.7)
   - CJBaseHelper/UIViewControllerCJHelper (0.1.7)
-  - CQDemoKit (0.6.9):
-    - CQDemoKit/BaseUIKit (= 0.6.9)
-    - CQDemoKit/BaseUtil (= 0.6.9)
-    - CQDemoKit/BaseVC (= 0.6.9)
-    - CQDemoKit/Demo_Resource (= 0.6.9)
-    - CQDemoKit/Demo_RipeView (= 0.6.9)
-    - CQDemoKit/Helper (= 0.6.9)
-    - CQDemoKit/Monitor (= 0.6.9)
-  - CQDemoKit/BaseUIKit (0.6.9):
-    - Masonry
-  - CQDemoKit/BaseUtil (0.6.9)
-  - CQDemoKit/BaseVC (0.6.9):
-    - CQDemoKit/BaseVC/Base (= 0.6.9)
-    - CQDemoKit/BaseVC/Collection (= 0.6.9)
-    - CQDemoKit/BaseVC/ScrollView (= 0.6.9)
-    - CQDemoKit/BaseVC/TabBar (= 0.6.9)
-    - CQDemoKit/BaseVC/TableView (= 0.6.9)
-    - CQDemoKit/BaseVC/TextView (= 0.6.9)
-    - CQDemoKit/Helper
-  - CQDemoKit/BaseVC/Base (0.6.9):
-    - CQDemoKit/BaseUIKit
-    - CQDemoKit/Helper
-    - Masonry
-  - CQDemoKit/BaseVC/Collection (0.6.9):
-    - CQDemoKit/BaseVC/Base
-    - CQDemoKit/Helper
-  - CQDemoKit/BaseVC/ScrollView (0.6.9):
-    - CQDemoKit/BaseVC/Base
-    - CQDemoKit/Helper
-  - CQDemoKit/BaseVC/TabBar (0.6.9):
-    - CQDemoKit/Helper
-  - CQDemoKit/BaseVC/TableView (0.6.9):
-    - CQDemoKit/BaseVC/Base
-    - CQDemoKit/Helper
-  - CQDemoKit/BaseVC/TextView (0.6.9):
-    - CQDemoKit/BaseUtil
-    - CQDemoKit/BaseVC/Base
-    - CQDemoKit/Helper
-  - CQDemoKit/Demo_Resource (0.6.9):
-    - CQDemoKit/BaseUIKit
-    - CQDemoKit/Helper
-  - CQDemoKit/Demo_RipeView (0.6.9):
-    - CQDemoKit/BaseUIKit
-    - CQDemoKit/BaseUtil
-    - CQDemoKit/Demo_Resource
-  - CQDemoKit/Helper (0.6.9)
-  - CQDemoKit/Monitor (0.6.9)
-  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CJBaseHelper/HookCJHelper (~> 0.1.7)
   - CJBaseHelper/UIViewControllerCJHelper (~> 0.1.7)
-  - CQDemoKit
 
 SPEC REPOS:
   trunk:
     - CJBaseHelper
-    - CQDemoKit
-    - Masonry
 
 SPEC CHECKSUMS:
   CJBaseHelper: 71c9d695c76736b2fc66123157d5626da4556177
-  CQDemoKit: f7a6a6f2a7e3eea2a4a0684c654bfcf0360e6dca
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 25f4b8e47672748e54869009c9d3063c4978d863
+PODFILE CHECKSUM: c68a84ad63a69fee2eb9765ab1396a927ac8fb86
 
 COCOAPODS: 1.12.1

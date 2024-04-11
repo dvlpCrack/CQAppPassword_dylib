@@ -12,7 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CQCrackDelegate : NSObject
 
-+ (void)startHookDelegate;
+//extern "C" {
+    void startHookDelegate(void);
+//}
 
 @end
 
