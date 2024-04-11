@@ -14,6 +14,15 @@
 
 @implementation CQCrackDelegate
 
++ (void)load {
+    NSLog(@"CQAppPassword_dylib 执行 %@(实验证明，注入的动态库会自动执行+load)", NSStringFromSelector(_cmd));
+    [CQCrackDelegate extraThingForDelegate]; // 会触发 + initialize
+}
+
+//+ (void)initialize {
+//    NSLog(@"CQAppPassword_dylib 执行 %@", NSStringFromSelector(_cmd));
+//}
+
 void startHookDelegate(void) {
     [CQCrackDelegate startHookDelegate];
 }
