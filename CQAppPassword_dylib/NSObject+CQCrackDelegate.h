@@ -1,17 +1,16 @@
 //
-//  UIWindow+CQCrackDelegate.h
+//  NSObject+CQCrackDelegate.h
 //  CQAppPassword_dylib
 //
 //  Created by qian on 2024/4/10.
 //  Copyright © 2018 dvlproad. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-@class SceneDelegate;
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SceneDelegate (CQCrackDelegate)
+@interface NSObject (CQCrackDelegate)
 
 
 @end
